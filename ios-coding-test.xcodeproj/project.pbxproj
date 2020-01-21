@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0433009823D71476002B08B3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433009723D71476002B08B3 /* HomeController.swift */; };
 		0433009D23D7167E002B08B3 /* Baas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433009C23D7167E002B08B3 /* Baas.swift */; };
+		0433009F23D71744002B08B3 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433009E23D71744002B08B3 /* HomeService.swift */; };
 		0496088C23D7118A007EB079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496088B23D7118A007EB079 /* AppDelegate.swift */; };
 		0496088E23D7118A007EB079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496088D23D7118A007EB079 /* SceneDelegate.swift */; };
 		0496089023D7118A007EB079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496088F23D7118A007EB079 /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		0433009723D71476002B08B3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		0433009C23D7167E002B08B3 /* Baas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baas.swift; sourceTree = "<group>"; };
+		0433009E23D71744002B08B3 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
 		0496088823D7118A007EB079 /* ios-coding-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-coding-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0496088B23D7118A007EB079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0496088D23D7118A007EB079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				0433009C23D7167E002B08B3 /* Baas.swift */,
+				0433009E23D71744002B08B3 /* HomeService.swift */,
 			);
 			path = DataManager;
 			sourceTree = "<group>";
@@ -441,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0433009F23D71744002B08B3 /* HomeService.swift in Sources */,
 				0433009823D71476002B08B3 /* HomeController.swift in Sources */,
 				0496089023D7118A007EB079 /* ViewController.swift in Sources */,
 				0496088C23D7118A007EB079 /* AppDelegate.swift in Sources */,
