@@ -17,11 +17,9 @@ class HomeService{
         Alamofire.request(API.baseUrl+"rails/rails/commits?per_page=25&sha=81d828a14c82b882e31612431a56f830bdc1076f", method: .get, parameters: nil,encoding: JSONEncoding.default, headers : nil).responseJSON
             {
                 response in
-                print(response)
                 switch response.result {
                 case .success(let value):
                     let json = JSON(value)
-                    print(json)
                     handler(true,json, nil)
                 case .failure(let error):
                     handler(false,[:], error)

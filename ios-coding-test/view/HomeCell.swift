@@ -17,8 +17,8 @@ class HomeCell : UICollectionViewCell {
         didSet {
             if let model = item {
                 personNameLabel.text = model.commit.author.name
-                commitHeaderLabel.text = model.commit.author.email
-                commitMessageLabel.text = model.commit.message
+                commitHeaderLabel.text = "Email: \(String(describing: model.commit.author.email))"
+                commitMessageLabel.text = "Message: \(model.commit.message ?? "")"
             }
         }
     }
@@ -75,17 +75,20 @@ class HomeCell : UICollectionViewCell {
         view.backgroundColor = .white
         
         view.addConstraint(NSLayoutConstraint(item: personNameLabel, attribute: .left, relatedBy: .equal, toItem: view, attribute: .left, multiplier: 1, constant: 10))
+        view.addConstraint(NSLayoutConstraint(item: personNameLabel, attribute: .right, relatedBy: .equal, toItem: view, attribute: .right, multiplier: 1, constant: -10))
         view.addConstraint(NSLayoutConstraint(item: personNameLabel, attribute: .top, relatedBy: .equal, toItem: view, attribute: .top, multiplier: 1, constant: 5))
         
         view.addConstraint(NSLayoutConstraint(item: commitHeaderLabel, attribute: .left, relatedBy: .equal, toItem: view, attribute: .left, multiplier: 1, constant: 10))
+        view.addConstraint(NSLayoutConstraint(item: commitHeaderLabel, attribute: .right, relatedBy: .equal, toItem: view, attribute: .right, multiplier: 1, constant: -10))
         view.addConstraint(NSLayoutConstraint(item: commitHeaderLabel, attribute: .top, relatedBy: .equal, toItem: personNameLabel, attribute: .bottom, multiplier: 1, constant: 5))
         
         view.addConstraint(NSLayoutConstraint(item: commitMessageLabel, attribute: .left, relatedBy: .equal, toItem: view, attribute: .left, multiplier: 1, constant: 10))
+        view.addConstraint(NSLayoutConstraint(item: commitMessageLabel, attribute: .right, relatedBy: .equal, toItem: view, attribute: .right, multiplier: 1, constant: -10))
         view.addConstraint(NSLayoutConstraint(item: commitMessageLabel, attribute: .top, relatedBy: .equal, toItem: commitHeaderLabel, attribute: .bottom, multiplier: 1, constant: 5))
         
         view.addConstraint(NSLayoutConstraint(item: bottomLineView, attribute: .left, relatedBy: .equal, toItem: view, attribute: .left, multiplier: 1, constant: 0))
         view.addConstraint(NSLayoutConstraint(item: bottomLineView, attribute: .right, relatedBy: .equal, toItem: view, attribute: .right, multiplier: 1, constant: 0))
-        view.addConstraint(NSLayoutConstraint(item: bottomLineView, attribute: .top, relatedBy: .equal, toItem: commitMessageLabel, attribute: .bottom, multiplier: 1, constant: 5))
+        view.addConstraint(NSLayoutConstraint(item: bottomLineView, attribute: .bottom, relatedBy: .equal, toItem: view, attribute: .bottom, multiplier: 1, constant: 5))
     
         return view
     }()
