@@ -10,6 +10,17 @@
 		0433009823D71476002B08B3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433009723D71476002B08B3 /* HomeController.swift */; };
 		0433009D23D7167E002B08B3 /* Baas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433009C23D7167E002B08B3 /* Baas.swift */; };
 		0433009F23D71744002B08B3 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433009E23D71744002B08B3 /* HomeService.swift */; };
+		043300A223D719EC002B08B3 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300A123D719EC002B08B3 /* HomeCell.swift */; };
+		043300A523D71D1A002B08B3 /* ViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300A423D71D1A002B08B3 /* ViewHelper.swift */; };
+		043300A723D71FB2002B08B3 /* GitMainResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300A623D71FB2002B08B3 /* GitMainResponse.swift */; };
+		043300A923D71FE2002B08B3 /* GitParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300A823D71FE2002B08B3 /* GitParent.swift */; };
+		043300AB23D7200E002B08B3 /* GitCommiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300AA23D7200E002B08B3 /* GitCommiter.swift */; };
+		043300AD23D72027002B08B3 /* GitCommit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300AC23D72027002B08B3 /* GitCommit.swift */; };
+		043300AF23D72044002B08B3 /* GitVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300AE23D72044002B08B3 /* GitVerification.swift */; };
+		043300B123D720C1002B08B3 /* GitTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300B023D720C1002B08B3 /* GitTree.swift */; };
+		043300B323D720E6002B08B3 /* GitSubCommiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300B223D720E6002B08B3 /* GitSubCommiter.swift */; };
+		043300B523D720FF002B08B3 /* GitAuthorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300B423D720FF002B08B3 /* GitAuthorData.swift */; };
+		043300B723D72118002B08B3 /* GitAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043300B623D72118002B08B3 /* GitAuthor.swift */; };
 		0496088C23D7118A007EB079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496088B23D7118A007EB079 /* AppDelegate.swift */; };
 		0496088E23D7118A007EB079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496088D23D7118A007EB079 /* SceneDelegate.swift */; };
 		0496089023D7118A007EB079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496088F23D7118A007EB079 /* ViewController.swift */; };
@@ -43,6 +54,17 @@
 		0433009723D71476002B08B3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		0433009C23D7167E002B08B3 /* Baas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baas.swift; sourceTree = "<group>"; };
 		0433009E23D71744002B08B3 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
+		043300A123D719EC002B08B3 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		043300A423D71D1A002B08B3 /* ViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHelper.swift; sourceTree = "<group>"; };
+		043300A623D71FB2002B08B3 /* GitMainResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitMainResponse.swift; sourceTree = "<group>"; };
+		043300A823D71FE2002B08B3 /* GitParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitParent.swift; sourceTree = "<group>"; };
+		043300AA23D7200E002B08B3 /* GitCommiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommiter.swift; sourceTree = "<group>"; };
+		043300AC23D72027002B08B3 /* GitCommit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommit.swift; sourceTree = "<group>"; };
+		043300AE23D72044002B08B3 /* GitVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitVerification.swift; sourceTree = "<group>"; };
+		043300B023D720C1002B08B3 /* GitTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitTree.swift; sourceTree = "<group>"; };
+		043300B223D720E6002B08B3 /* GitSubCommiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitSubCommiter.swift; sourceTree = "<group>"; };
+		043300B423D720FF002B08B3 /* GitAuthorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAuthorData.swift; sourceTree = "<group>"; };
+		043300B623D72118002B08B3 /* GitAuthor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitAuthor.swift; sourceTree = "<group>"; };
 		0496088823D7118A007EB079 /* ios-coding-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-coding-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0496088B23D7118A007EB079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0496088D23D7118A007EB079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				0433009723D71476002B08B3 /* HomeController.swift */,
+				043300A123D719EC002B08B3 /* HomeCell.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -106,6 +129,15 @@
 		0433009923D7147F002B08B3 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				043300A623D71FB2002B08B3 /* GitMainResponse.swift */,
+				043300A823D71FE2002B08B3 /* GitParent.swift */,
+				043300AA23D7200E002B08B3 /* GitCommiter.swift */,
+				043300AC23D72027002B08B3 /* GitCommit.swift */,
+				043300AE23D72044002B08B3 /* GitVerification.swift */,
+				043300B023D720C1002B08B3 /* GitTree.swift */,
+				043300B223D720E6002B08B3 /* GitSubCommiter.swift */,
+				043300B423D720FF002B08B3 /* GitAuthorData.swift */,
+				043300B623D72118002B08B3 /* GitAuthor.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -113,6 +145,7 @@
 		0433009A23D7148B002B08B3 /* commons */ = {
 			isa = PBXGroup;
 			children = (
+				043300A323D71CFC002B08B3 /* Helper */,
 				0433009B23D71660002B08B3 /* DataManager */,
 			);
 			path = commons;
@@ -125,6 +158,14 @@
 				0433009E23D71744002B08B3 /* HomeService.swift */,
 			);
 			path = DataManager;
+			sourceTree = "<group>";
+		};
+		043300A323D71CFC002B08B3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				043300A423D71D1A002B08B3 /* ViewHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		0496087F23D71189007EB079 = {
@@ -444,11 +485,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043300A723D71FB2002B08B3 /* GitMainResponse.swift in Sources */,
+				043300B523D720FF002B08B3 /* GitAuthorData.swift in Sources */,
 				0433009F23D71744002B08B3 /* HomeService.swift in Sources */,
+				043300AB23D7200E002B08B3 /* GitCommiter.swift in Sources */,
+				043300B323D720E6002B08B3 /* GitSubCommiter.swift in Sources */,
+				043300A923D71FE2002B08B3 /* GitParent.swift in Sources */,
+				043300A223D719EC002B08B3 /* HomeCell.swift in Sources */,
 				0433009823D71476002B08B3 /* HomeController.swift in Sources */,
+				043300B123D720C1002B08B3 /* GitTree.swift in Sources */,
+				043300B723D72118002B08B3 /* GitAuthor.swift in Sources */,
 				0496089023D7118A007EB079 /* ViewController.swift in Sources */,
+				043300AD23D72027002B08B3 /* GitCommit.swift in Sources */,
 				0496088C23D7118A007EB079 /* AppDelegate.swift in Sources */,
 				0433009D23D7167E002B08B3 /* Baas.swift in Sources */,
+				043300A523D71D1A002B08B3 /* ViewHelper.swift in Sources */,
+				043300AF23D72044002B08B3 /* GitVerification.swift in Sources */,
 				0496088E23D7118A007EB079 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
