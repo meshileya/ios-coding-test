@@ -13,8 +13,8 @@ import SwiftyJSON
 class HomeService{
     typealias CompletionHandlerSwiftyJson = (_ result: Bool, _ data: JSON, _ error: Error?) -> Void
     
-    func makeOTPCheckCall(handler: @escaping CompletionHandlerSwiftyJson){
-        Alamofire.request(API.baseUrl+"rails/rails/commits?per_page=50&sha=81d828a14c82b882e31612431a56f830bdc1076f", method: .get, parameters: nil,encoding: JSONEncoding.default, headers : nil).responseJSON
+    func makeGitCommitCall(handler: @escaping CompletionHandlerSwiftyJson){
+        Alamofire.request(API.baseUrl+"rails/rails/commits?per_page=25&sha=81d828a14c82b882e31612431a56f830bdc1076f", method: .get, parameters: nil,encoding: JSONEncoding.default, headers : nil).responseJSON
             {
                 response in
                 print(response)
