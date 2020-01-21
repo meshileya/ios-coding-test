@@ -5,6 +5,9 @@ target 'ios-coding-test' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+pod 'SwiftyJSON', '~> 4.0'
+pod 'Alamofire', '~> 4.7.3'
+
   # Pods for ios-coding-test
 
   target 'ios-coding-testTests' do
